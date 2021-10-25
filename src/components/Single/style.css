@@ -1,0 +1,22 @@
+
+.single h1{
+    font-size: 2rem;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.single h2{
+    font-size: 1.125rem;
+    color: #DFD4E5;
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+
+.links-single{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;      
+}
+
+.links-single ul li{
+}
