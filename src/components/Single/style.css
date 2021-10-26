@@ -14,9 +14,7 @@
 
 .links-single{
     display: flex;
-    list-style-type: none;
     justify-content: space-around;      
 }
 
-.links-single ul li{
-}
+

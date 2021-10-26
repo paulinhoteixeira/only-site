@@ -1,5 +1,6 @@
 import React from 'react';
 import Single from './components/Single';
+import Header from './components/Header';
 
 
 import './App.css';
@@ -14,6 +15,7 @@ function App() {
       backgroundSize: "cover",
       height: "auto" }} >     
       <Single />
+      <Header />
     </div>
     
   );
