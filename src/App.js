@@ -15,7 +15,9 @@ function App() {
       backgroundSize: "cover",
       height: "auto" }} >     
       <Single />
+      <div className="divider-1"></div>
       <Header />
+      <div className="divider-2"></div>
     </div>
     
   );
