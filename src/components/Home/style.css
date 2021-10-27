@@ -1,0 +1,43 @@
+#home {
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+.logo{
+    margin-bottom: 1.5rem; 
+}
+
+#home .image {
+  position: relative;
+  width: 100%;
+}
+
+#home .image::before {
+  content: " ";
+  height: 100%;
+  width: 100%;
+  background: #425365;
+  position: absolute;
+  top: 9%;
+  left: -40%;
+}
+
+#home .image img {
+  position: relative;
+}
+
+#home .image img,
+#home .image::before {
+  border-radius: 0.25rem;
+}
+
+.social{
+    position: relative;
+    padding: 0 1.5rem;  
+    margin-top: 1.5rem;  
+}
+
+.social .links{
+    display: flex;
+    justify-content: space-around;
+}
