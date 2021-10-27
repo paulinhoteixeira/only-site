@@ -1,6 +1,7 @@
 import React from 'react';
 import Single from './components/Single';
 import Header from './components/Header';
+import Home from './components/Home';
 
 
 import './App.css';
@@ -18,6 +19,8 @@ function App() {
       <div className="divider-1"></div>
       <Header />
       <div className="divider-2"></div>
+      <Home />
+      <div className="divider-1"></div>
     </div>
     
   );

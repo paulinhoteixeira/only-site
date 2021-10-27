@@ -17,7 +17,7 @@ const Header = () => {
         <div className="menu">
           <ul className="grid">
             <li>
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="">Músicas</a>
@@ -76,7 +76,7 @@ const Header = () => {
           
             <ul className="grid">
               <li>
-                <a href="">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
                 <a href="">Músicas</a>

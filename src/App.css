@@ -13,6 +13,11 @@
   padding: 5rem 1.5rem;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .divider-1 {
   display: flex;
   z-index: 999;
@@ -32,3 +37,5 @@
     rgba(204, 244, 230, 0.34) 100%
   );
 }
+
+
