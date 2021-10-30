@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import iconSet from "../../assets/fonts/selection.json";
 import IcomoonReact, { iconList } from "icomoon-react";
+import HeaderData from '../../Data/HeaderData';
 
 import "./style.css";
 
@@ -16,24 +17,15 @@ const Header = () => {
       <nav>
         <div className="menu">
           <ul className="grid">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="">Músicas</a>
-            </li>
-            <li>
-              <a href="">Merch</a>
-            </li>
-            <li>
-              <a href="">Vídeos</a>
-            </li>
-            <li>
-              <a href="">Fotos</a>
-            </li>
-            <li>
-              <a href="">Contato</a>
-            </li>
+            {
+              HeaderData.map((item) =>{
+                return(
+                  <li>
+                    <a href={`#${item.value.toLowerCase()}`}>{item.value}</a>
+                  </li>
+                )
+              })
+            }   
           </ul>
         </div>
       </nav>
@@ -75,24 +67,15 @@ const Header = () => {
           <div className="menu-mobile">
           
             <ul className="grid">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="">Músicas</a>
-              </li>
-              <li>
-                <a href="">Merch</a>
-              </li>
-              <li>
-                <a href="">Vídeos</a>
-              </li>
-              <li>
-                <a href="">Fotos</a>
-              </li>
-              <li>
-                <a href="">Contato</a>
-              </li>
+                {
+                  HeaderData.map((item) =>{
+                    return(
+                      <li>
+                        <a href={`#${item.value.toLowerCase()}`}>{item.value}</a>
+                      </li>
+                    )
+                  })
+                }              
             </ul>
           </div>
         </nav>
