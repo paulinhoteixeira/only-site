@@ -2,6 +2,7 @@ import React from 'react';
 import Single from './components/Single';
 import Header from './components/Header';
 import Home from './components/Home';
+import Musics from './components/Musics';
 
 
 import './App.css';
@@ -21,6 +22,8 @@ function App() {
       <div className="divider-2"></div>
       <Home />
       <div className="divider-1"></div>
+      <Musics />
+      <div className="divider-2"></div>
     </div>
     
   );
