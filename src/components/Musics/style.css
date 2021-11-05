@@ -1,0 +1,33 @@
+.musics h1 {
+  font-size: 2rem;
+  color: #f2f2f2;
+  margin-bottom: 0.375rem;
+}
+
+.musics h2 {
+  font-size: 1.125rem;
+  color: #dfd4e5;
+  margin-bottom: 2.81rem;
+}
+
+.eps {
+  background: #425365;
+  padding: 0.625rem;
+}
+
+.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e4e4e4;
+}
+
+.swiper-button-prev {
+  color: #dfd4e5;
+}
+
+.swiper-button-next {
+  color: #dfd4e5;
+}
