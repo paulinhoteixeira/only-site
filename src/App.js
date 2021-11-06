@@ -3,6 +3,7 @@ import Single from './components/Single';
 import Header from './components/Header';
 import Home from './components/Home';
 import Musics from './components/Musics';
+import Merch from './components/Merch';
 
 
 
@@ -25,6 +26,9 @@ function App() {
       <div className="divider-1"></div>
       <Musics />
       <div className="divider-2"></div>
+      <Merch />
+      <div className="divider-1"></div>
+      
     </div>
     
   );
