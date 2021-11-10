@@ -21,11 +21,19 @@ const Merch = () => (
         mousewheel={true}
         pagination={{ clickable: true }}
         className="mySwiper"
+        breakpoints={{
+          // when window width is >= 767px
+          767: {
+            spaceBetween: 30,
+            slidesPerView: 4,
+          }}}
       >
         {MerchData.map((item) => {
           return (
             <SwiperSlide>
-              <img className="ep" src={item.image} alt={item.tshirt} />
+                <div className="image">
+                <img className="tshirt" src={item.image} alt={item.tshirt} />
+                </div>
             </SwiperSlide>
           );
         })}
