@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Musics from './components/Musics';
 import Merch from './components/Merch';
+import Footer from './components/Footer';
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <div className="divider-2"></div>
       <Merch />
       <div className="divider-1"></div>
+      <Footer />
       
     </div>
     
