@@ -1,20 +1,20 @@
 import iconSet from "../../assets/fonts/selection.json";
 import IcomoonReact from "icomoon-react";
-import logo from "../../assets/images/logoOnly.png";
+import logoFooter from "../../assets/images/logoOnlyFooter.png";
 
 import "./style.css";
 
 const Footer = () => (
   <footer className="section">
-    <div className="container grid">
+    <div className="grid">
       <div className="brand">
-        <a href="#">
-          <img src={logo} alt="Logo da banda Only" />
+        <a className="logo-footer" href="#">
+          <img src={logoFooter} alt="Logo da banda Only" />
         </a>
         <p>©2021 ONLY</p>
         <p>Todos os direitos reservados.</p>
       </div>
-      <div className="social grid">
+      <div className="social-footer grid">
         <a
           href="https://www.instagram.com/bandaonly/"
           target="_blank"
@@ -22,7 +22,7 @@ const Footer = () => (
         >
           <IcomoonReact
             color="#F2F2F2"
-            size="3.75rem"
+            size="1.5rem"
             iconSet={iconSet}
             icon="instagram"
           />
@@ -34,7 +34,7 @@ const Footer = () => (
         >
           <IcomoonReact
             color="#F2F2F2"
-            size="3.75rem"
+            size="1.5rem"
             iconSet={iconSet}
             icon="spotify"
           />
@@ -46,7 +46,7 @@ const Footer = () => (
         >
           <IcomoonReact
             color="#F2F2F2"
-            size="3.75rem"
+            size="1.5rem"
             iconSet={iconSet}
             icon="youtube"
           />

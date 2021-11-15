@@ -18,7 +18,8 @@ function App() {
       backgroundImage: "url(/background.png)",
       backgroundRepeat: 'no-repeat',
       backgroundSize: "cover",
-      height: "auto" }} >     
+      height: "auto",
+      width: "auto"}} >     
       <Single />
       <div className="divider-1"></div>
       <Header />

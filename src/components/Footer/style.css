@@ -1,0 +1,27 @@
+footer.section{
+    background: #1C2538;
+    padding: 3rem 1.5rem;   
+}
+
+footer .logo-footer{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+footer p{
+    font-size: 1rem;
+    color: #F9F9F9; 
+    margin-bottom: 0.75rem;
+}
+
+footer .social-footer {
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
+
+
+footer .grid {
+    display: grid;
+    gap: 2rem;
+}
