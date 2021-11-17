@@ -7,15 +7,19 @@ import './style.css'
 
 function Single(){
     return(
-        <div className="single container">
-            <h1>A terra da Terra plana</h1>
-            <img src={terraPlana} alt="" />
-            <h2>Ouça agora o nosso novo single</h2>
-            <ul className="links-single">
-                <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="spotify" />  </a> </li>
-                <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="deezer" />  </a></li>
-                <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="youtube" />  </a></li>
-            </ul>
+        <div className="single section">
+            <div className="container">
+                <h1>A terra da Terra plana</h1>
+                <img src={terraPlana} alt="" />
+                <h2>Ouça agora o nosso novo single</h2>
+                <ul className="links-single">
+                    <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="spotify" />  </a> </li>
+                    <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="deezer" />  </a></li>
+                    <li><a href="#"> <IcomoonReact color="#F2F2F2" size="4rem" iconSet={iconSet} icon="youtube" />  </a></li>
+                </ul>
+                <h3>Ir para o site</h3>
+
+            </div>
         </div>
     );
     

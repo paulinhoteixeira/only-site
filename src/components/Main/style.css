@@ -1,4 +1,4 @@
-#home {
+#main {
   overflow: hidden;
   padding: 5rem 0;
 }
@@ -7,12 +7,12 @@
     margin-bottom: 1.5rem; 
 }
 
-#home .image {
+#main .image {
   position: relative;
   width: 100%;
 }
 
-#home .image::before {
+#main .image::before {
   content: " ";
   height: 100%;
   width: 100%;
@@ -22,12 +22,12 @@
   left: -40%;
 }
 
-#home .image img {
+#main .image img {
   position: relative;
 }
 
-#home .image img,
-#home .image::before {
+#main .image img,
+#main .image::before {
   border-radius: 0.25rem;
 }
 

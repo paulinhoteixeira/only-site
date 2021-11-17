@@ -6,8 +6,8 @@ import logo from "../../assets/images/logoOnly.png";
 
 import "./style.css";
 
-const Home = () => (
-  <div className="home" id="home">
+const Main = () => (
+  <div className="main" id="main">
     <img className="logo" src={logo} alt="Logo da banda Only" />
     <div className="image">
       <img src={fotoHome} alt="Foto da banda Only com o público pós show" />
@@ -74,4 +74,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Main;

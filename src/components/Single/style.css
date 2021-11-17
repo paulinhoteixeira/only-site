@@ -1,4 +1,9 @@
-
+.single{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .single h1{
     font-size: 2rem;
     color: #F2F2F2;
