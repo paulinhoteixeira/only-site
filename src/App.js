@@ -1,4 +1,5 @@
 import React from 'react';
+import RouteSite from './Routes';
 import Single from './components/Single';
 import Home from './pages/Home';
 
@@ -15,9 +16,8 @@ function App() {
       backgroundSize: "cover",
       height: "auto",
       width: "auto"}} >     
-      <Single />
-      <div className="divider-1"></div>
-      <Home />
+      <RouteSite />
+      
       
     </div>
     

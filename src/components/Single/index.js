@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import iconSet from "../../assets/fonts/selection.json";
 import IcomoonReact, { iconList } from "icomoon-react";
 import terraPlanaTitulo from "../../assets/images/terraPlanaTitulo.png";
@@ -52,7 +53,8 @@ function Single() {
             </a>
           </li>
         </ul>
-        <h3>Ir para o site</h3>
+        <Link to="/home"><h3>Ir para o site</h3></Link>
+        
       </div>
     </div>
   );
