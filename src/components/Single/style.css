@@ -1,6 +1,7 @@
 #single {
   height: 100vh;
   padding: 0 1.5rem;
+  overflow: hidden;
 }
 
 #single .container {
