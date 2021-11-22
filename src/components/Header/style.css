@@ -11,26 +11,35 @@
 }
 header {
   align-items: flex-end;
-  /* height:4.5rem; */
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
+  border-bottom: 1px solid #425365;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #1C2538;
+
 }
 .icon-menu {
   cursor: pointer;
 }
 
-.close{
-    display: flex;
-    z-index: 3;
-    position: fixed;
-    top: 0.1;   
-    cursor: pointer;
-    margin: 1rem;
+.close {
+  display: flex;
+  z-index: 3;
+  position: fixed;
+  top: 0.5;
+  right: 0.5;
+  cursor: pointer;
+  /* margin: 1rem; */
 }
 
 .menu-mobile {
-  background: #1C2538;
+  background: #1c2538;
 
   height: 100vh;
   width: 100vw;
@@ -51,10 +60,10 @@ ul.grid {
 }
 
 nav ul li {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  nav ul li a{
-    color: #F9F9F9;
-    font-size: 1.875rem;
-  }
+nav ul li a {
+  color: #f9f9f9;
+  font-size: 1.875rem;
+}

@@ -5,7 +5,7 @@ import logoFooter from "../../assets/images/logoOnlyFooter.png";
 import "./style.css";
 
 const Footer = () => (
-  <footer className="section">
+  <footer className="section" id="contato">
     <div className="grid">
       <div className="brand">
         <a className="logo-footer" href="#">

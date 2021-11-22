@@ -9,7 +9,7 @@ import "./style.css";
 SwiperCore.use([Navigation, Mousewheel, Pagination]);
 
 const Merch = () => (
-  <div className="merch container">
+  <div className="merch container" id="merch">
     <h1>Merch Oficial</h1>
     <h2>Confira todos os nossos modelos de camiseta</h2>
 

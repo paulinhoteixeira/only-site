@@ -34,14 +34,14 @@ const Header = () => {
         {menu ? (
           <IcomoonReact
             color="#F2F2F2"
-            size="4rem"
+            size="2rem"
             iconSet={iconSet}
             icon="close"
           />
         ) : (
           <IcomoonReact
             color="#F2F2F2"
-            size="4rem"
+            size="2rem"
             iconSet={iconSet}
             icon="menu"
           />
@@ -54,7 +54,7 @@ const Header = () => {
               onClick={menuVisibility}
               className="icon-close"
               color="#E4E4E4"
-              size="1.5rem"
+              size="2rem"
               iconSet={iconSet}
               icon="close"
             />
