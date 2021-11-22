@@ -69,9 +69,11 @@ const Header = () => {
             <ul className="grid">
                 {
                   HeaderData.map((item) =>{
+                    // FUNÇÃO PARA REMOVER OS ACENTOS DO ID 
+                    let id = item.value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
                     return(
                       <li>
-                        <a href={`#${item.value.toLowerCase()}`}>{item.value}</a>
+                        <a onClick={menuVisibility} href={`#${id.toLowerCase()}`}>{item.value}</a>
                       </li>
                     )
                   })

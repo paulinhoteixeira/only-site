@@ -11,7 +11,7 @@ import './style.css'
 SwiperCore.use([Navigation, Mousewheel, Pagination]);
 
 const Musics = () => (
-  <div className="musics container">
+  <div className="musics container" id="musica">
     <h1>Músicas</h1>
     <h2>Eps e singles</h2>
 
