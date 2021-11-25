@@ -7,7 +7,7 @@ import logo from "../../assets/images/logoOnly.png";
 import "./style.css";
 
 const Main = () => (
-  <div className="main" id="main">
+  <div className="main section" id="main">
     <img className="logo" src={logo} alt="Logo da banda Only" />
     <div className="image">
       <img src={fotoHome} alt="Foto da banda Only com o público pós show" />
@@ -15,7 +15,9 @@ const Main = () => (
     <div className="social">
       <ul className="links">
         <li>
-          <a href="#">
+          <a href="https://www.facebook.com/bandaonly"
+          target="_blank"
+          rel="noreferrer noopener">
             {" "}
             <IcomoonReact
               color="#F2F2F2"
@@ -26,7 +28,9 @@ const Main = () => (
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://open.spotify.com/artist/56ENOEcCGio5GqQmt7j14x?si=ED5t-LfVSzKHG6nCBCVngg"
+          target="_blank"
+          rel="noreferrer noopener">
             {" "}
             <IcomoonReact
               color="#F2F2F2"
@@ -37,7 +41,9 @@ const Main = () => (
           </a>{" "}
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.youtube.com/user/bandaonly"
+          target="_blank"
+          rel="noreferrer noopener">
             {" "}
             <IcomoonReact
               color="#F2F2F2"
@@ -48,7 +54,9 @@ const Main = () => (
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.instagram.com/bandaonly/"
+          target="_blank"
+          rel="noreferrer noopener">
             {" "}
             <IcomoonReact
               color="#F2F2F2"
@@ -59,7 +67,9 @@ const Main = () => (
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.youtube.com/user/bandaonly"
+          target="_blank"
+          rel="noreferrer noopener">
             {" "}
             <IcomoonReact
               color="#F2F2F2"

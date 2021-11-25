@@ -7,8 +7,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --header-height: 3.5rem;
+}
+
 .container {  
-  padding: 5rem 1.5rem;
+  padding: calc(5rem + var(--header-height)) 1.5rem;
 }
 
 img {

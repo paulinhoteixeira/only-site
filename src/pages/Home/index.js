@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 const Home = () => (
   <>
     <Header />
-    <div className="divider-2"></div>
+    <div className="divider-2" id="home"></div>
     <Main />
     <div className="divider-1"></div>
     <Musics />

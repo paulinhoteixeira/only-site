@@ -9,7 +9,7 @@ import "./style.css";
 
 function Single() {
   return (
-    <div className="section" id="single">
+    <div id="single">
       <div className="container grid">
         <div className="single-title">
           <img src={terraPlanaTitulo} alt="" />
