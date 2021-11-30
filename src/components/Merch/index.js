@@ -22,7 +22,7 @@ const Merch = () => (
         pagination={{ clickable: true }}
         className="mySwiper"
         breakpoints={{
-          // when window width is >= 767px
+          // width >= 767px
           767: {
             spaceBetween: 30,
             slidesPerView: 4,

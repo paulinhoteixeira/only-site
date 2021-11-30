@@ -16,13 +16,20 @@ const Musics = () => (
     <h2>Eps e singles</h2>
 
     <div className="eps">
-      <Swiper 
-      direction={'horizontal'}
-      slidesPerView={1}
-      navigation={true} 
-      mousewheel={true}
-      pagination={{"clickable": true}} 
-      className="mySwiper">
+    <Swiper
+        direction={"horizontal"}
+        slidesPerView={1}
+        navigation={true}
+        mousewheel={true}
+        pagination={{ clickable: true }}
+        className="mySwiper"
+        breakpoints={{
+          // width >= 767px
+          767: {
+            spaceBetween: 30,
+            slidesPerView: 3,
+          }}}
+      >
         {MusicsData.map((item) => {
           return (
             <SwiperSlide>
