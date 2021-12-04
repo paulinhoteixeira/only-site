@@ -19,9 +19,10 @@ const Header = () => {
           <ul className="grid">
             {
               HeaderData.map((item) =>{
+                let id = item.value.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
                 return(
                   <li>
-                    <a href={`#${item.value.toLowerCase()}`}>{item.value}</a>
+                    <a href={`#${id.toLowerCase()}`}>{item.value}</a>
                   </li>
                 )
               })
