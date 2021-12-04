@@ -7,7 +7,7 @@ import logo from "../../assets/images/logoOnly.png";
 import "./style.css";
 
 const Main = () => (
-  <div className="main section" id="main">
+  <div id="main" className="container grid" >
     <img className="logo" src={logo} alt="Logo da banda Only" />
     <div className="image">
       <img src={fotoHome} alt="Foto da banda Only com o público pós show" />

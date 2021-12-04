@@ -3,9 +3,19 @@
   padding: 5rem 0;
 }
 
+#main.grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  align-content: center;
+}
+
 .logo{
     margin-bottom: 1.5rem; 
     margin-top: 1.5rem;
+    width: 12.6rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main .image {
@@ -41,4 +51,43 @@
 .social .links{
     display: flex;
     justify-content: space-around;
+}
+
+@media (min-width: 1200px){  
+
+  #main.container {
+    grid-template-areas:
+      "logo image"
+      "social image";
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10rem 0;
+  }
+
+  #main .logo{
+    grid-area: logo;
+    width: 24rem;
+
+  }
+
+  #main .image{
+    grid-area: image;
+    right: 49px;
+  }
+
+  #main .image::before {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    background: #425365;
+    position: absolute;
+    top: 9%;
+    left: -10%;
+  }
+
+  #main .social{
+    grid-area: social;
+  }
+
 }
