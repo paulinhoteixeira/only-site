@@ -1,29 +1,32 @@
-.menu {
+header {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 4.5rem;
+  padding: 1.5rem;
+  border-bottom: 1px solid #425365;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #1c2538;
+}
+
+nav .menu {
   position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+  opacity: 0;
+  visibility: hidden;
+  top: -20rem;
 }
-header {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  border-bottom: 1px solid #425365;
-  display: flex;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: #1C2538;
 
-}
 .icon-menu {
   cursor: pointer;
 }
@@ -38,7 +41,7 @@ header {
   /* margin: 1rem; */
 }
 
-.menu-mobile {
+nav .menu-mobile {
   background: #1c2538;
 
   height: 100vh;
@@ -66,4 +69,43 @@ nav ul li {
 nav ul li a {
   color: #f9f9f9;
   font-size: 1.875rem;
+}
+
+@media (min-width: 1200px) {
+  header{
+    padding: 0;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    width: 100%;
+  }
+
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+    overflow: visible;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+}
 }

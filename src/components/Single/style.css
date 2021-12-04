@@ -83,4 +83,8 @@
     margin-bottom: 6.25rem;
 
   }
+
+  .links-single {
+    justify-content: space-evenly;
+  }
 }
