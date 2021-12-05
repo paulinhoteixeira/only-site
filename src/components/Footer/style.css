@@ -2,6 +2,10 @@ footer.section {
   background: #1c2538;
 }
 
+#contato .container {
+  padding: 3.75rem 1.75rem;
+}
+
 footer .logo-footer {
   display: inline-block;
   margin-bottom: 1.5rem;
