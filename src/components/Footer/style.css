@@ -1,27 +1,43 @@
-footer.section{
-    background: #1C2538;
-    padding: 3rem 1.5rem;   
+footer.section {
+  background: #1c2538;
 }
 
-footer .logo-footer{
-    display: inline-block;
-    margin-bottom: 1.5rem;
+footer .logo-footer {
+  display: inline-block;
+  margin-bottom: 1.5rem;
 }
 
-footer p{
-    font-size: 1rem;
-    color: #F9F9F9; 
-    margin-bottom: 0.75rem;
+footer p {
+  font-size: 1rem;
+  color: #f9f9f9;
+  margin-bottom: 0.75rem;
 }
 
 footer .social-footer {
-    grid-auto-flow: column;
-    width: fit-content;
+  grid-auto-flow: column;
+  width: fit-content;
 }
 
-
-
 footer .grid {
-    display: grid;
-    gap: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1200px) {
+  #contato .container {
+    padding: 3.75rem 0;
+    grid-template-areas: "brand social-footer";
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #contato .brand {
+    grid-area: brand;
+    width: 24rem;
+  }
+
+  #contato .social-footer {
+    grid-area: social-footer;
+    right: 49px;
+  }
 }

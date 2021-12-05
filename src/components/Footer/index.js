@@ -6,7 +6,7 @@ import "./style.css";
 
 const Footer = () => (
   <footer className="section" id="contato">
-    <div className="grid">
+    <div className=" container grid">
       <div className="brand">
         <a className="logo-footer" href="#">
           <img src={logoFooter} alt="Logo da banda Only" />
