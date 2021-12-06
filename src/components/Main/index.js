@@ -67,7 +67,7 @@ const Main = () => (
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/user/bandaonly"
+          <a href="https://www.deezer.com/br/artist/520770"
           target="_blank"
           rel="noreferrer noopener">
             {" "}

@@ -42,15 +42,23 @@
   border-radius: 0.25rem;
 }
 
-.social{
+#main .social{
     position: relative;
     padding: 0 1.5rem;  
     margin-top: 1.5rem;  
 }
 
-.social .links{
+#main .social .links{
     display: flex;
     justify-content: space-around;
+}
+
+#main .social .links li {
+  transition: 0.3s;
+}
+
+#main .social .links li:hover {
+  transform: translateY(-8px);
 }
 
 @media (min-width: 1200px){  

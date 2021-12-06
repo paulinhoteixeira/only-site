@@ -52,6 +52,14 @@
   width: fit-content;
 }
 
+#single .links-single li {
+  transition: 0.3s;
+}
+
+#single .links-single li:hover {
+  transform: translateY(-8px);
+}
+
 @media (min-width: 1200px) {
   #single .container {
     grid-template-areas:
