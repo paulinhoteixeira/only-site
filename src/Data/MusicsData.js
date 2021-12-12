@@ -2,7 +2,7 @@ import cronico from '../assets/images/musicsImages/cronico.jpg';
 import iorar from '../assets/images/musicsImages/iorar.jpg';
 import buzina from '../assets/images/musicsImages/buzina.jpeg';
 import autoimune from '../assets/images/musicsImages/autoimune.jpg';
-import aterradaterraplana from '../assets/images/musicsImages/aterradaterraplana.jpeg';
+import aterradaterraplana from '../assets/images/musicsImages/aterradaterraplana.png';
 
 const MusicsData =[
     { 
